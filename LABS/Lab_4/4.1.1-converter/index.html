@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body onload="clearFields()">
+    <div class="container">
+        <div class="input-group">
+            <label for="exchangeRate">What is Bitcoin price today?</label>
+        </div>
+        <div class="input-group">
+          <input id="exchangeRate" onchange="calculate()">
+        </div>
+        <div class="input-group">
+            <label for="amount">How much $ do you have?</label>
+        </div>
+        <div class="input-group">
+          <input type="number" id="amount" min="0" step="0.01" onchange="calculate()">
+        </div>
+        <div class="result" id="result">
+            <label id="resultLabel">You can buy </label>
+            <span id="resultValue"></span>
+        </div>
+    </div>
+</body>
+</html>

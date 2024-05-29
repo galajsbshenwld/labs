@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+
+    <title>Lab 2. Nekhaienko</title>
+</head>
+<body>
+
+    <p><b><i>Завдання 1. Записати вказане трицифрове натуральне число в зворотньому порядку:</i></b></p>
+
+    <label for="numberInput">Введіть <b>трицифрове</b> число:</label>
+    <input type="number" id="numberInput" placeholder="Наприклад: 456">
+    <button onclick="mirrorNumber()">Показати число в зворотньому порядку</button>
+    <div id="result_1"></div>
+
+    <p><b><i>Завдання 2. Перевірити, чи три вектора a, b, c,  які задаються трьома координатами, є компланарними:</i></b></p>
+
+    <p>Введіть координати векторів a, b і c:</p>
+    <input type="number" id="ax" placeholder="a.x">
+    <input type="number" id="ay" placeholder="a.y">
+    <input type="number" id="az" placeholder="a.z">
+    <br>
+    <input type="number" id="bx" placeholder="b.x">
+    <input type="number" id="by" placeholder="b.y">
+    <input type="number" id="bz" placeholder="b.z">
+    <br>
+    <input type="number" id="cx" placeholder="c.x">
+    <input type="number" id="cy" placeholder="c.y">
+    <input type="number" id="cz" placeholder="c.z">
+    <br>
+    <button onclick="checkComplanarity()">Перевірити</button>
+    <div id="result_2"></div>
+
+   
+    <p><b><i>Завдання 3. Знайти кількість чотиризначних чисел, сума цифр яких дорівнює k:</i></b></p>
+
+    <p>Введіть число k:</p>
+    <input type="number" id="k" placeholder="Введіть k">
+    <br>
+    <button onclick="countNumbers()">Знайти кількість</button>
+    <div id="result_3"></div>
+
+    <p><b><i>Завдання 4. Розкласти натуральне число на прості множники:</i></b></p>
+
+    <label for="numberInput1">Введіть натуральне число:</label>
+    <input type="number" id="numberInput1">
+    <button onclick="factorize()">Розкласти</button>
+
+    <div id="result_4"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тексти</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body onload="initText()">
+    <div class="container">
+      <div class="buttons">
+        <button onclick="clearText()">
+          <svg fill="#000000" width="80px" height="80px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.755,20.283,4,8H20L18.245,20.283A2,2,0,0,1,16.265,22H7.735A2,2,0,0,1,5.755,20.283ZM21,4H16V3a1,1,0,0,0-1-1H9A1,1,0,0,0,8,3V4H3A1,1,0,0,0,3,6H21a1,1,0,0,0,0-2Z"/></svg>
+        </button>
+        <button onclick="editText()">
+          <svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.9888 4.28491L19.6405 2.93089C18.4045 1.6897 16.4944 1.6897 15.2584 2.93089L13.0112 5.30042L18.7416 11.055L21.1011 8.68547C21.6629 8.1213 22 7.33145 22 6.54161C22 5.75176 21.5506 4.84908 20.9888 4.28491Z" fill="#030D45"/><path d="M16.2697 10.9422L11.7753 6.42877L2.89888 15.3427C2.33708 15.9069 2 16.6968 2 17.5994V21.0973C2 21.5487 2.33708 22 2.89888 22H6.49438C7.2809 22 8.06742 21.6615 8.74157 21.0973L17.618 12.1834L16.2697 10.9422Z" fill="#030D45"/></svg>
+        </button>
+      </div>
+      <div class="text">
+        <textarea id="main-text" class="text-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac dolor nunc. Maecenas porttitor magna vel sollicitudin scelerisque. Nulla facilisi. In scelerisque nulla et erat sollicitudin, nec scelerisque lorem maximus. Nullam condimentum condimentum lorem, et tempus mauris sollicitudin a. Praesent sit amet orci sed turpis commodo elementum. In malesuada neque eget magna vulputate laoreet. Vestibulum sodales tristique nulla, id volutpat est dignissim et. Phasellus lobortis justo condimentum rhoncus hendrerit. Morbi lacus turpis, varius in semper et, euismod molestie libero. Ut dignissim neque interdum odio porta aliquam. Aliquam quis quam ac mauris semper scelerisque in eget sapien.
+        </textarea>
+      </div>
+    </div>
+</body>
+</html>
